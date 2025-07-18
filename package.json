@@ -1,0 +1,33 @@
+{
+  "name": "@janeirohurley/full-axios-client",
+  "version": "1.0.1",
+  "description": "A fully customizable Axios client with support for multiple authentication types and token storage options",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "pnpm build"
+  },
+  "keywords": [
+    "axios",
+    "api-client",
+    "kirundi",
+    "auth",
+    "oauth2"
+  ],
+  "author": "Janeiro Hurley <ndabubahajanvier@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.10.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "packageManager": "pnpm@10.13.1"
+}
