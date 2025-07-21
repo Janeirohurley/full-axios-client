@@ -1,6 +1,6 @@
 {
   "name": "@janeirohurley/full-axios-client",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A fully customizable Axios client with support for multiple authentication types and token storage options",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
